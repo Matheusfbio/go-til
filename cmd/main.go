@@ -1,16 +1,21 @@
 package main
 
-import (
-	"go-til/internal/user"
-)
+import "fmt"
 
-func main()  {
-	var users []user.User
+func main() 
 
-	user.AddUser(&users, user.NewUser("Matheus", 27, true))
+// import (
+// 	"go-til/internal/user"
+// )
 
-	user.ListUsers(users)
-}
+// func main()  {
+// 	var users []user.User
+
+// 	user.AddUser(&users, user.NewUser("Matheus", 27, true))
+
+// 	user.ListUsers(users)
+// }
+
 
 
 // "go-til/internal/user"
